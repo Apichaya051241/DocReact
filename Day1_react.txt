@@ -1,0 +1,132 @@
+cmdev Youtube
+
+#install yarn
+#install VSCode
+#install Node
+# create react-js project 
+npx create-react-app demo0
+npx create-react-app <name> --template typescript
+
+# vscode extension 
+code --install-extension dsznajder.es7-react-js-snippets
+code --install-extension vscode-icons-team.vscode-icons
+code --install-extension naumovs.color-highlight
+code --install-extension esbenp.prettier-vscode
+code --install-extension humao.rest-client
+code --install-extension riazxrazor.html-to-jsx
+code --install-extension christian-kohler.path-intellisense
+code --install-extension zignd.html-css-class-completion
+
+# setup crcf
+npm i -g create-react-component-folder
+yarn add global create-react-component-folder
+npx crcf --version
+
+#Split Components
+npx crcf -f  --notest --typescript Header Menu AuthorizedPage
+npx crcf -f  --notest --typescript LoginPage RegisterPage ReportPage StockPage StockCreatePage StockEditPage TransactionPage ShopPage
+
+#props
+#createTheme
+#Index.txs
+	<React.StrictMode>
+    		<BrowserRouter>
+     			<App />
+    		</BrowserRouter>
+  	</React.StrictMode>
+#Font (import font)
+#UI Theme
+
+
+
+# install (frontend)
+yarn add @emotion/react @emotion/styled @mui/icons-material @mui/material @mui/x-data-grid chart.js react-chartjs-2 @react-hook/debounce react-router-dom @types/react-router-dom axios moment react-moment url-join react-number-format react-redux redux @reduxjs/toolkit react-hook-form faker@5.5.3 @types/faker@5.5.3
+
+
+#Link install tools(install if want to use)
+https://www.npmjs.com/package/create-react-component-folder
+https://fonts.google.com/specimen/Smooch+Sans
+https://mui.com/material-ui/react-drawer/#main-content
+
+
+#git (Teacher)
+https://github.com/codemobiles/cm-react-mern-2022
+
+-NodeJS LTE
+-VSCode
+-Git
+-npx create-react-app hello
+-cd..
+-yarn start / npm start
+-yarn build
+
+
+vite
+app.js
+app.tsx
+
+#Key
+rfc
+tsrfc
+Ctrl+P
+
+----------------------------------
+UI Theme
+MUI
+
+#clear cache
+yarn cache clean
+AppData
+
+#Split
+
+alt+shift ->
+
+npx crcf --version
+
+#Split Components
+components -> 
+npx crcf -f  --notest --typescript Header Menu AuthorizedPage
+
+
+rounting
+
+ลงliberlyเพื่อrount
+
+index -> App
+
+//Link Youtube
+https://www.youtube.com/watch?v=dmjHm5Gx0Yg&list=PLjPfp4Ph3gBpbVPivsoIaOhfeNwmBskI8
+
+//set font 
+index.css -> app.tsx
+
+
+-------------------------------------------
+tomorrow
+
+reduct hook from
+-Use State
+-Use Reducer
+-Use Effect
+	Component DidMount
+	ComponentDidUpdate
+	ComponentWillUnMount
+
+
+
+-----------------------------------------
+yarn add yup
+#react toolkit
+
+-------backend--------
+npx nodemon
+yarn add nodemon global
+npm i -g nodemon
+
+
+tsc server.ts แปลงจาก ts--> js
+
+
+#install MongDB
+https://www.mongodb.com/try/download/community2

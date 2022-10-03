@@ -1,0 +1,95 @@
+https://www.youtube.com/c/CMDevChannel
+
+Backend
+#create folder
+-backend
+-backend-ts
+-backend-typorm
+
+
+node server.js
+npx nodemon server.js
+sudo npm i -g nodemon
+sudo yarn add global nodemon
+nodemon server.js
+npm init -y
+
+yarn add express
+
+#install MongoDB
+https://www.mongodb.com/download-center/database-tools/releases/archive
+-mongoDB install
+-mongodb-database-tools-windows-x86_64-100.6.0
+-mongosh-1.6.0-win32-x64
+	-copy file in bin 2 file --> paste in C:\ --> Program files --> mongoDB --> server --> bin 
+	-close cmd --> open cmd
+	-mongosh
+	
+use <db_name>
+use demopos
+show collections;
+db.course.insertOne({name: "java", price: 10})
+db.course.find()
+db.course.find().pretty()
+exit
+db.dropDatabase();
+
+------------------------
+https://mui.com/material-ui/react-text-field/#main-content
+https://react-hook-form.com/
+https://www.mongodb.com/download-center/database-tools/releases/archive
+	
+
+
+
+----------------Day 3-------------------------
+npm i -g ts-node-dev
+
+prefix
+restclinte
+
+https://mui.com/material-ui/react-alert/#main-content
+
+controller -> route -> datasouce
+
+intercepter
+publicKEY
+
+jwt
+
+
+authSlice
+
+
+----------------Day 4 --------------------------
+#Generate Key
+https://app.quicktype.io/ 
+#Create page / tab in menu
+#DataGrid
+
+https://www.youtube.com/watch?v=dmjHm5Gx0Yg&list=PLjPfp4Ph3gBpbVPivsoIaOhfeNwmBskI8
+
+----------------Day5--------------------------------
+#line chart(chart.js)
+https://react-chartjs-2.js.org/examples/line-chart/
+
+
+#Build
+yarn build
+npx serve 
+npx serve -s
+
+
+#Query Expression
+https://www.regextester.com/
+
+brew --version
+
+#nginx Homebrew
+dowload nginx --> c: ---> if localhost not null chang localhost
+run port
+build
+copy in build --> nginx C:/ --> html --> backup 2 file(bkk) --> Paste
+
+
+pm2 init simple
